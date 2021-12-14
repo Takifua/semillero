@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.body {
+    background-image: linear-gradient(to right, #1e2326 50%, #283233 50%);
+    width: 950px;
+    height: 500px;
+    margin: auto;
+    margin-top: 5%;
+    border: 5px solid black;
+    border-radius: 15px;
+    display: flex;
+    font-size: 12px;
+}
+
+.izq {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+h6 {
+    margin: 5% 0 0 8%;
+    font-size: 12px;
+}
+
+.title {
+    font-size: 20px;
+    margin: 18% 0 0 43%;
+}
+
+.vaso {
+    width: 150px;
+    height: 330px;
+    margin-top: 8%;
+}
+
+.info {
+    margin: 18% 20% 0 0;
+    background-image: linear-gradient(to right, #283233 70%, #1e2326 50%);
+    padding: 5% 0 5% 30%;
+}
+
+.info h4 {
+    margin-bottom: 2%;
+}
+
+.pie {
+    margin: 20% 0 0 0;
+    padding: 1% 0 1% 30%;
+    background-image: linear-gradient(to left,#1e2326 65%, rgb(255, 123, 0) 50% );
+}
+
+.pie p {
+    color: white;
+}
+
+.desing h4 {
+    margin: 5% 0 2% 35%;
+}
+
+.desing p {
+    margin-left: 35%;
+    margin-right: 15%;
+    margin-bottom: 5%;
+}
+
+.topIcon {
+    width: 25px;
+    margin-left: 90%;
+    margin-top: 5%;
+}
+
+.flecha {
+    width: 25px;
+    margin-left: 90%;
+    margin-top: 34%;
+    margin-bottom: 10%;
+}
+
+.puntos {
+    width: 25px;
+    margin-left: 90%;
+    margin-top: 25%;
+}
+
+p {
+    color: #666666;
+}
+
+.desing {
+    background-image: linear-gradient(to left, #1e2326 55%, #283233 50%);
+    margin-top: 3%;
+}

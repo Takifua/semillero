@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 13;
+    text-decoration: none;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+li {
+    list-style: none;
+    padding: 5px;
+    font: bold 14px verdana;
+    display: inline-block;
+}
+
+.header {
+    padding: 5px;
+    text-align: right;
+    width: 99%;
+    height: 42px;
+}
+
+.header ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+.header img {
+    width: 35px;
+    display: inline-block;
+    border-radius: 20px;
+}
+
+.buscador {
+    text-align: center;
+}
+
+.buscador p {
+    margin-top: 30px;
+}
+
+.buscar {
+    background-color: rgb(17, 17, 17);
+    border-radius: 300px;
+    border-color: #252525;
+    border-style: double;
+    width: 600px;
+    height: 40px;
+    display: block;
+    margin: 0px 350px 30px;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+}
+
+.cuadro {
+    background-color: #252525;
+    padding: 10px;
+    margin: 5px;
+}
+
+.pie {
+    margin-top: 44px;
+    background-color: #252525;
+    color: gray;
+}
+
+.pie2, .pie3 {
+    background-color: #252525;
+    display: inline-block;
+    padding: 15px;
+}
+
+.pie3 {
+    margin-left: 390px;
+}
+
+.pie p {
+    padding: 15px;
+    border-bottom: 1px solid rgb(44, 44, 44);
+}

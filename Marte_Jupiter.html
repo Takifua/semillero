@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Tu peso en otro plano astral</title>
+
+<body>
+    <h1>Tu peso en otro planeta</h1>
+    <p>En la tierra pesas distinto que en otros astros</p>
+    <script>
+        var usuario = prompt("Cual es tu peso?");
+        var planeta = prompt("Elige tu planeta.\n1 es marte, 2 es Jupiter")
+        var peso = usuario;
+        peso = parseInt(peso);
+        var gTierra = 9.8;
+        var gMarte = 3.7;
+        var gJupiter = 24.8;
+
+        var pesoFinal;
+        pesoFinal = peso * gMarte / gTierra;
+        pesoFinal1 = peso * gJupiter / gTierra;
+        pesoFinal = parseInt(pesoFinal);
+        pesoFinal1 = parseInt(pesoFinal1);
+        if (planeta == 1) {
+            document.write("Tu peso en marte es <strong>" + pesoFinal + "Kg</strong>");
+        } else if (planeta == 2) { document.write("Tu peso en Jupiter es <string>" + pesoFinal1 + "Kg</strong>");
+        } else document.write("Tu peso en Krypton es de <strong>10000000Kg</strong>");
+
+    </script>
+</body>
+</head>
+
+</html>
