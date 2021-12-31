@@ -1,0 +1,21 @@
+* {
+    background-color: rgb(13, 13, 19);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    justify-content: center;
+    margin: 10%;
+}
+
+h1 {
+    font-size: 80px;
+}
+
+p {
+    font-size: 40px;
+}

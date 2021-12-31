@@ -247,3 +247,30 @@ for (var i = size; i > -1; i--){
 for (var i = 0; i < revert.length; i++) {
     s.splice(i,0,revert[i]);
 }
+
+///////// ejercicio 13 ///////// https://leetcode.com/problems/can-place-flowers/submissions/
+
+var flowerpod = 0;
+for(var i = 0; i < flowerbed.length; i++) {
+    var pod0 = flowerbed[i-1];
+    var pod1 = flowerbed[i];
+    var pod2 = flowerbed[i+1];
+    if (pod0 === 0 && pod1 === 0 && pod2 === 0) {
+            flowerpod++;
+            i += 1;
+        }
+    if (pod0 === undefined && pod1 === 0 && pod2 === 0) {
+        flowerpod++;
+        i +=1;
+    }
+    if (pod0 === 0 && pod1 === 0 && pod2 === undefined) {
+        flowerpod++;
+        i +=1;
+    }
+    if (pod0 === undefined && pod1 === 0 && pod2 === undefined) {
+        flowerpod++;
+        i +=1;
+    }
+}
+return flowerpod >= n;
+
